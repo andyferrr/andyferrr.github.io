@@ -1,0 +1,518 @@
+
+
+@media (max-width: 1024px) {
+    .header {
+        max-width: 1024px;
+    }
+
+    .header__container {
+        max-width: 824px;
+        padding-bottom: 0;
+        flex-wrap: wrap;
+    }
+
+    .header__logo {
+        margin-right: 0;
+        order: 1;
+        margin-bottom: 33px;
+    }
+
+    .header__search {
+        order: 2;
+    }
+
+    .nav {
+        order: 3;
+        width: 100%;
+        padding: 22px 0 22px 0;
+        border: 1px solid #e6e8ec;
+    }
+
+    .header__list {
+        gap: 105px;
+    }
+    .main{
+    max-width: 1024px;
+    }
+
+    .main__container{
+        max-width: 824px;
+        margin: auto;
+        padding-top: 0;
+        padding-bottom: 0;
+        align-items: center;
+    }
+
+    .hero{
+        width: 442px;
+        display: flex;
+    }
+    .hero_text_1{
+        margin-top: 90px;
+        font-size: 60px;
+        margin-bottom: 14px;
+    }
+    .hero_text_2{
+        font-size: 16px;
+        width: 539px;
+        margin-bottom: 20px;
+    }
+    .hero_btn{
+        font-size: 20px;
+        background-color: #6D31EE;
+        border-radius: 40px;
+        padding-top:25px ;
+        padding-bottom: 25px;
+        padding-left: 54px;
+        padding-right: 54px;
+    }
+
+    .hero_img_1{
+        margin-top: 90px;
+        margin-left: 30px;
+        display: flex;
+        position: relative;
+        width: 256px;
+        height: 262px;
+        margin-bottom: 90px;
+    }
+    
+
+
+
+    .back_col{
+        max-width: 1024px;
+        height: 940px;
+        position: relative;
+
+    }
+
+    .podcast{
+        position: absolute;
+        margin-top: 94px;
+    }
+    .podcast_text{
+        font-size: 48px;
+        margin-bottom: 30px;
+    }
+    .cont{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        width: 823px;
+    }
+
+    .item{
+        display: flex;
+        width: 396px;
+        height: 140px;
+        background-color: white;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .img1{
+        width: 112px;
+        height: 140px;
+    }
+    .text{
+        margin-left: 30px;
+    }
+    .time{
+        margin-top: 40px;
+        margin-bottom: -8px;
+        font-size: 12px;
+    }
+    .mesto{
+        margin-bottom: -4px;
+        font-size: 20px;
+    }
+    .avtor{
+        font-size: 16px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .header {
+        max-width: 768px;
+    }
+
+    .header__container {
+        max-width: 538px;
+        padding-top: 33px;
+        align-items: center;
+    }
+
+    .header__link {
+        font-size: 16px;
+    }
+
+    .header__list {
+        gap: 56px;  
+    }
+
+    .main{
+    max-width: 768px;
+    }
+
+    .main__container{
+        max-width: 539px;
+        margin: auto;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-left: 100px;
+    }
+
+    .hero{
+        width: 442px;
+        display: flex;
+    }
+    .hero_text_1{
+        margin-top: 90px;
+        font-size: 60px;
+        margin-bottom: 14px;
+    }
+    .hero_text_2{
+        font-size: 16px;
+        width: 539px;
+        margin-bottom: 20px;
+    }
+    .hero_btn{
+        font-size: 20px;
+        background-color: #6D31EE;
+        border-radius: 40px;
+        padding-top:25px ;
+        padding-bottom: 25px;
+        padding-left: 54px;
+        padding-right: 54px;
+        margin-bottom: 90px;
+    }
+
+    .hero_img_1{
+        display: none;
+    }
+    .back_col{
+        max-width: 768px;
+        height: 1596px;
+        position: relative;
+
+    }
+
+    .podcast{
+        position: absolute;
+        margin-top: 6px;
+    }
+    .podcast_text{
+        font-size: 48px;
+        margin-bottom: 30px;
+    }
+    .cont{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr ;
+        width: 823px;
+    }
+
+    .item{
+        display: flex;
+        width: 540px;
+        height: 140px;
+        background-color: white;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .img1{
+        width: 112px;
+        height: 140px;
+    }
+    .text{
+        margin-left: 30px;
+    }
+    .time{
+        margin-top: 40px;
+        margin-bottom: -8px;
+        font-size: 12px;
+    }
+    .mesto{
+        margin-bottom: -4px;
+        font-size: 20px;
+    }
+    .avtor{
+        font-size: 16px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 535px) {
+    .header__list {
+        gap: 23px;
+    }
+    .back_col{
+        max-width: 535px;
+        height: 1596px;
+        position: relative;
+
+    }
+
+    .podcast{
+        position: absolute;
+        margin-top: 6px;
+    }
+    .podcast_text{
+        font-size: 48px;
+        margin-bottom: 30px;
+    }
+    .cont{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr ;
+        width: 823px;
+    }
+
+    .item{
+        display: flex;
+        width: 540px;
+        height: 140px;
+        background-color: white;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .img1{
+        width: 112px;
+        height: 140px;
+    }
+    .text{
+        margin-left: 30px;
+    }
+    .time{
+        margin-top: 40px;
+        margin-bottom: -8px;
+        font-size: 12px;
+    }
+    .mesto{
+        margin-bottom: -4px;
+        font-size: 20px;
+    }
+    .avtor{
+        font-size: 16px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 470px) {
+    .header__list {
+        gap: 32px;
+        overflow-x: scroll;
+    }
+    .main{
+    max-width: 470px;
+    }
+    .hero{
+        width: 355px;
+        display: flex;
+    }
+    .hero_text_1{
+        margin-top: 40px;
+        font-size: 36px;
+        margin-bottom: 8px;
+    }
+    .main__container{
+        max-width: 355px;
+        margin: auto;
+        padding-top: 0;
+        padding-bottom: 0;
+        align-items: center;
+    }
+    .hero_text_2{
+        font-size: 14px;
+        width: 355px;
+        margin-bottom: 20px;
+    }
+    .hero_btn{
+        font-size: 20px;
+        background-color: #6D31EE;
+        border-radius: 40px;
+        padding-top:17px ;
+        padding-bottom: 17px;
+        padding-left: 45px;
+        padding-right: 45px;
+        margin-bottom: 40px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 320px) {
+    .header {
+        max-width: 320px;
+    }
+
+    .header__container {
+        max-width: 256px;
+        padding-top: 23px;
+        margin-left: 32px;
+    }
+
+
+
+    .nav {
+        padding: 17px 0 17px 0;
+    }
+
+    .main{
+    max-width: 320px;
+    }
+
+    .main__container{
+        max-width: 256px;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-left: 32px;
+
+
+        align-items: center;
+    }   
+
+    .hero{
+        width: 256px;
+        display: flex;
+    }
+    .hero_text_1{
+        margin-top: 40px;
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+    .hero_text_2{
+        font-size: 14px;
+        width: 256px;
+        margin-bottom: 20px;
+    }
+    .hero_btn{
+        font-size: 20px;
+        background-color: #6D31EE;
+        border-radius: 40px;
+        padding-top:17px ;
+        padding-bottom: 17px;
+        padding-left: 45px;
+        padding-right: 45px;
+        margin-bottom: 40px;
+    }
+
+    .hero_img_1{
+        display: none;
+    }
+
+    .back_col{
+        max-width: 320px;
+        height: 1842px;
+        position: relative;
+
+    }
+
+    .podcast{
+        position: absolute;
+        margin-top: 6px;
+    }
+    .podcast_text{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .cont{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr ;
+        width: 823px;
+    }
+
+    .item{
+        width: 256px;
+        height: 185px;
+        background-color: white;
+        margin-right: 32px;
+        margin-bottom: 32px;
+        flex-direction: column;
+    }
+
+    .img1{
+        width: 256px;
+        height: 72px;
+    }
+    .text{
+        margin-left: 16px;
+    }
+    .time{
+        font-size: 12px;
+        margin-top: 30px;
+    }
+    .mesto{
+        font-size: 16px;
+    }
+    .avtor{
+        font-size: 12px;
+    }
+
+}

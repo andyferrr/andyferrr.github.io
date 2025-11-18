@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    max-width: 1920px;
+}
+
+
+
+.header__container { 
+    max-width: 1110px;
+    margin: auto;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    margin-right: 80px;   
+}
+
+
+.header__search {
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+}
+
+.header__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 58px;
+}
+
+.header__link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #121723;
+    cursor: pointer;
+}
+
+.main{
+    max-width: 1920px;
+}
+
+.main__container{
+    max-width: 1110px;
+    margin: auto;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    align-items: center;
+    background-color: white;
+}
+
+.hero{
+    width: 450px;
+    display: flex;
+}
+.hero_text_1{
+    margin-top: 94px;
+    font-size: 60px;
+    margin-bottom: 14px;
+}
+.hero_text_2{
+    font-size: 16px;
+    width: 635px;
+    margin-bottom: 45px;
+}
+.hero_btn{
+    font-size: 20px;
+    background-color: #6D31EE;
+    border-radius: 40px;
+    padding-top:25px ;
+    padding-bottom: 25px;
+    padding-left: 54px;
+    padding-right: 54px;
+}
+
+.hero_img_1{
+    margin-top: 50px;
+    margin-left: 125px;
+    display: flex;
+    position: relative;
+    width: 350px;
+    height: 372px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+.back_col{
+
+    max-width: 1920px;
+    height: 940px;
+    position: relative;
+
+}
+
+
+.podcast{
+    position: absolute;
+
+    margin-top: 6px;
+}
+.podcast_text{
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+.cont{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: 1110px;
+    background-color: white;
+
+}
+
+.item{
+    display: flex;
+    width: 540px;
+    height: 140px;
+    background-color: white;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+}
+
+.img1{
+    width: 112px;
+    height: 140px;
+}
+.text{
+    margin-left: 30px;
+}
+.time{
+    margin-top: 40px;
+    margin-bottom: -8px;
+    font-size: 12px;
+}
+.mesto{
+    margin-bottom: -4px;
+    font-size: 20px;
+}
+.avtor{
+    font-size: 16px;
+}
