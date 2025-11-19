@@ -344,7 +344,7 @@
 
 
 
-@media (max-width: 430px) {
+@media (max-width: 470px) {
     .header__list {
         gap: 32px;
         overflow-x: scroll;
@@ -569,3 +569,4 @@
     }
 
 }
+
